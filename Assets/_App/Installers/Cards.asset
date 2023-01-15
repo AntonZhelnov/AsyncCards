@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f6fbba059b472a8ddea3a09204b77c, type: 3}
+  m_Name: Cards
+  m_EditorClassIdentifier: 
+  _cardsLoaders:
+  - {fileID: 11400000, guid: 0770a7e240d985343ae39a4eb3216e97, type: 2}
+  - {fileID: 11400000, guid: e3d1e0164fe46734798dc6ae9544061c, type: 2}
+  - {fileID: 11400000, guid: da900c8a34c1b6542844c68d573fbb8e, type: 2}
+  _cardsLoaderSettings:
+    URL: https://picsum.photos/200/300
+  _cardSettings:
+    FlipDuration: 0.25
